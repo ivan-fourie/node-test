@@ -106,7 +106,7 @@ Vagrant.configure(2) do |config|
     touch /etc/vagrant-provisioned
     echo " "
     echo "##### Ready ######"
-    echo "Run 'nodemon /var/node/app.js' within an SSH session to start the server" 
+    echo "Run 'nodemon -L /var/node/app.js' within an SSH session to start the server" 
     echo -n "Node version: " && node --version
   SHELL
 
